@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Schemes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e8f5e9;
+        }
+        .scheme-item {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+        .scheme-item:hover {
+            background-color: #4caf50;
+            color: white;
+        }
+        .scheme-number {
+            width: 30px;
+            height: 30px;
+            background-color: #e8f5e9;
+            color: #4caf50;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .scheme-item:hover .scheme-number {
+            background-color: white;
+            color: #4caf50;
+        }
+        .scheme-item:hover .text-muted,
+        .scheme-item:hover .advantage {
+            color: #e8f5e9 !important;
+        }
+        .scheme-item:hover .btn-outline-secondary {
+            color: white;
+            border-color: white;
+        }
+        .advantage {
+            color: #4caf50;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center text-success">Government Schemes</h1>
+        <div class="list-group">
+            <div class="scheme-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <span class="scheme-number me-3">1</span>
+                    <div>
+                        <h5 class="mb-0">Pradhan Mantri KISAN Samman Nidhi (PM-KISAN)</h5>
+                        <p class="text-muted mb-0">Direct benefit scheme for farmers</p>
+                        <p class="advantage mb-0">Advantage: Boosts farmer income and reduces financial stress</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span class="text-muted me-3">Rs. 6,000/year</span>
+                    <a href="https://pmkisan.gov.in/" class="btn btn-outline-secondary btn-sm">Learn More</a>
+                </div>
+            </div>
+
+            <div class="scheme-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <span class="scheme-number me-3">2</span>
+                    <div>
+                        <h5 class="mb-0">Pradhan Mantri Fasal Bima Yojana</h5>
+                        <p class="text-muted mb-0">Crop insurance scheme</p>
+                        <p class="advantage mb-0">Advantage: Protects farmers from financial losses due to crop failure</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span class="text-muted me-3">Launched 2016</span>
+                    <a href="https://pmfby.gov.in/" class="btn btn-outline-secondary btn-sm">Learn More</a>
+                </div>
+            </div>
+
+            <div class="scheme-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <span class="scheme-number me-3">3</span>
+                    <div>
+                        <h5 class="mb-0">Pradhan Mantri Krishi Sinchai Yojana</h5>
+                        <p class="text-muted mb-0">Micro-irrigation assistance scheme</p>
+                        <p class="advantage mb-0">Advantage: Enhances water use efficiency in agriculture</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span class="text-muted me-3">Launched 2015</span>
+                    <a href="https://pmksy.gov.in/" class="btn btn-outline-secondary btn-sm">Learn More</a>
+                </div>
+            </div>
+
+            <div class="scheme-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <span class="scheme-number me-3">4</span>
+                    <div>
+                        <h5 class="mb-0">Ayushman Sahakar Scheme</h5>
+                        <p class="text-muted mb-0">Health infrastructure for cooperatives</p>
+                        <p class="advantage mb-0">Advantage: Improves healthcare access in rural areas</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span class="text-muted me-3">Launched 2023</span>
+                    <a href="https://www.india.gov.in/ayushman-sahakar-scheme" class="btn btn-outline-secondary btn-sm">Learn More</a>
+                </div>
+            </div>
+
+            <div class="scheme-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <span class="scheme-number me-3">5</span>
+                    <div>
+                        <h5 class="mb-0">E-NAM (National Agriculture Market)</h5>
+                        <p class="text-muted mb-0">Electronic trading portal for agriculture</p>
+                        <p class="advantage mb-0">Advantage: Ensures better price realization for farmers</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span class="text-muted me-3">Launched 2016</span>
+                    <a href="https://www.enam.gov.in/web/" class="btn btn-outline-secondary btn-sm">Learn More</a>
+                </div>
+            </div>
+
+            <div class="scheme-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <span class="scheme-number me-3">6</span>
+                    <div>
+                        <h5 class="mb-0">Pradhan Mantri Kisan Maan-Dhan Yojana (PM-KMY)</h5>
+                        <p class="text-muted mb-0">Pension scheme for small farmers</p>
+                        <p class="advantage mb-0">Advantage: Provides social security to aging farmers</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span class="text-muted me-3">Rs. 3,000/month</span>
+                    <a href="https://pmkmy.gov.in" class="btn btn-outline-secondary btn-sm">Learn More</a>
+                </div>
+            </div>
+
+            <div class="scheme-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <span class="scheme-number me-3">7</span>
+                    <div>
+                        <h5 class="mb-0">Krishi Kalyan Abhiyan</h5>
+                        <p class="text-muted mb-0">Farmer welfare program</p>
+                        <p class="advantage mb-0">Advantage: Comprehensive support for agricultural development</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span class="text-muted me-3">112 districts</span>
+                    <a href="https://palamu.nic.in/gallery/kirishi-kalyan-abhiyan/" class="btn btn-outline-secondary btn-sm">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
